@@ -71,7 +71,7 @@ class companyController extends Controller
 
 
                  
-        \Mail::to("rija.idenbrid@gmail.com")->send(new notificattionMail($details));
+        \Mail::to("demo.browntech@gmail.com")->send(new notificattionMail($details));
 
         return back()->with('success', 'Company Successfully Add');
 
